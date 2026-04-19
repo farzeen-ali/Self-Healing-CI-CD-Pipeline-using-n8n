@@ -1,0 +1,2 @@
+ Hello, The AI Self-Healing Pipeline has automatically detected and fixed a CI/CD failure in your repository.  Repository: {{ $('GitHub Failure Webhook').first().json.body.repo }} Branch: {{ $('Extract AI Response').first().json.branch_name }} Fix Title: {{ $('Extract AI Response').first().json.pr_title }}  Pull Request has been created. Please review and merge: https://github.com/{{ $('GitHub Failure Webhook').first().json.body.repo }}/pulls Best regards, 
+AI Self-Healing System
